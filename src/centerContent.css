@@ -1,0 +1,103 @@
+/* .center{
+    
+
+        flex: 0.5;
+        border-radius: 10px;
+    
+        height: fit-content;
+        margin: 0px 20px;
+    
+}
+.center-top{
+
+    border : 1px solid lightgray;
+    border-bottom: 0;
+    border-radius: 10px; 
+    background-color: white;
+    padding-bottom: 10px;
+}
+.image-circle{
+    padding: 7px;
+}
+.post{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.post-border{
+    border: 1px solid grey;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    
+}
+.post-border p{
+    padding-left: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-image-text{
+    display: flex;
+    align-items: center;
+    
+}
+.flex-image-text p{
+    margin-left: 10px;
+}
+.video{
+    background-color: green;
+    color: white;
+    border:none;
+}
+.photo{
+    background-color: blue;
+    color: white;
+}
+.event{
+    background-color: orange;
+    color: white;
+}
+.article{
+    background-color: pink;
+    color: white;
+} */
+.feeder{
+    flex: 0.45;
+
+    margin-left:  10px;
+    margin-right:  10px;
+}
+.feed-inputContainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.feed-input{
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: grey;
+    padding-left: 15px;
+}
+.feed-input > form{
+    display: flex;
+    width: 100%;
+}
+.feed-input > form > input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+.feed-inputOption{
+    display: flex;
+    justify-content: space-evenly;
+}

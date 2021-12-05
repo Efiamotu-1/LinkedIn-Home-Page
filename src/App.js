@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+
+// import {useState} from 'react'
+import "./App.css";
+import Center from "./centerContent";
+import Header from "./components/Header";
+import Feeds from "./Feed";
+import SideBar from "./sidebar";
 
 function App() {
+
+
+  // const addPost=(state)=>{
+  //   console.log(state)
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <div className="app-body">
+        {/* Sidebar*/}
+       <SideBar />
+       <Center />
+       <Feeds />
+       <div></div>
+      </div>
     </div>
   );
 }

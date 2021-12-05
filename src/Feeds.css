@@ -1,0 +1,57 @@
+.feed{
+    
+    /* position: sticky;
+    top: 80px; */
+    flex: 0.3;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+
+}
+.feed-top{
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center; */
+    border : 1px solid lightgray;
+    border-bottom: 0;
+    border-radius: 10px; 
+    background-color: white;
+    padding-bottom: 10px;
+}
+.feeds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.feed-field{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+
+}
+.feed-avatar{
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.feed-field p{
+    color: grey;
+    font-size: 12px;
+    text-align: start;
+}
+.feed-field h2{
+    font-size: 14px;
+    text-align: start;
+}
+.feed-field button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+    color: grey;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.post{
+    background-color: white;
+    border-radius: 10px;
+}
+.post-setup{
+    margin: 10px;
+}
+.post-avatar{
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.date-time{
+    display: flex;
+}
+.date-time p{ 
+    margin-right: 5px;
+}
+.post-top{
+    display: flex;
+    align-items: flex-start;
+}
+.post-top p{
+   margin-bottom: -10px;
+   
+}
+.post-top h4{
+    margin-bottom: -10px;
+    
+ }
+.post-icons{
+    display: flex;
+    align-items: center;
+}
+.post-feed{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}

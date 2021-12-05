@@ -1,0 +1,7 @@
+.input-option-flex{
+display: flex;
+align-items: center;
+}
+.input-option-flex p{
+    margin-left: 10px;
+}
