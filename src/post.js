@@ -14,7 +14,7 @@ function Post({ posts }) {
         return (
           <div className="post-setup" key={post.id}>
             <div className="post-top">
-              <img src={post.avatar} width="40px" className="post-avatar" />
+              <img src={post.avatar} alt="...avatar" width="40px" className="post-avatar" />
               <div>
                 <h4>{post.name}</h4>
                 <div className="date-time">

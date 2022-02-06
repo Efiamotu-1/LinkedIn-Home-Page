@@ -1,12 +1,8 @@
 // import React, { useState } from "react";
 // import React, {Component} from 'react'
 // import InputOption from "./InputOption";
-// import { Image } from "@material-ui/icons";
-// import { Slideshow } from "@material-ui/icons";
-// import { Event } from "@material-ui/icons";
-// import { FormatAlignJustify } from "@material-ui/icons";
+// import { Image } from "@material-
 // import CreateIcon from "@material-ui/icons/Create";
-import Avatar from "@material-ui/core/Avatar";
 import Post from "./post";
 
 import React, { Component } from "react";
@@ -19,14 +15,13 @@ import {
   Event,
   FormatAlignJustify,
   Create,
-  ShowChart,
 } from "@material-ui/icons";
 
 class Center extends Component {
   constructor() {
     super();
     this.state = {
-      message: '',
+      // message: 'joy',
       posts: [
         {
           id: 1,

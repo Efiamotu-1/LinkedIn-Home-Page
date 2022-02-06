@@ -2,6 +2,7 @@ import React from "react";
 import './HeaderOption.css'
 
 function HeaderOption({Icon, title, Avatar}) {
+
     return (
         // <div>
         //    {/* {Icon} */}
